@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on GreensboroSoccer.net</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on GreensboroSoccer.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 May 2023 23:44:44 -0400</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>greensboro</title>
+      <link>/categories/greensboro/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/categories/greensboro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>league</title>
+      <link>/categories/league/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/categories/league/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>/categories/post/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/categories/post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

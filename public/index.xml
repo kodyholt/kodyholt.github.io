@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on GreensboroSoccer.net</title>
+    <link>/</link>
+    <description>Recent content in index on GreensboroSoccer.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 May 2023 16:58:12 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>/_hello/</link>
+      <pubDate>Sun, 14 May 2023 22:10:03 -0400</pubDate>
+      
+      <guid>/_hello/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>High Point</title>
+      <link>/adult-leagues/high-point/</link>
+      <pubDate>Sun, 14 May 2023 08:33:52 -0400</pubDate>
+      
+      <guid>/adult-leagues/high-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernersville</title>
+      <link>/adult-leagues/kernersville/</link>
+      <pubDate>Sun, 14 May 2023 08:27:31 -0400</pubDate>
+      
+      <guid>/adult-leagues/kernersville/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>/events/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/events/</guid>
+      <description> hello Greensboro Leagues Hey High Point Leagues hey Winston-Salem Leagues hey Kernersville Leagues hey </description>
+    </item>
+    
+    <item>
+      <title>Greensboro Leagues</title>
+      <link>/adult-leagues/greensboro/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/adult-leagues/greensboro/</guid>
+      <description> hello Greensboro Leagues Hey High Point Leagues hey Winston-Salem Leagues hey Kernersville Leagues hey </description>
+    </item>
+    
+    <item>
+      <title>Hey</title>
+      <link>/singles/hello/</link>
+      <pubDate>Sun, 07 May 2023 16:16:02 -0400</pubDate>
+      
+      <guid>/singles/hello/</guid>
+      <description>what&amp;rsquo;s up</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/myfirstpost/</link>
+      <pubDate>Sun, 07 May 2023 14:57:17 -0400</pubDate>
+      
+      <guid>/myfirstpost/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/post/myfirstpost/</link>
+      <pubDate>Sun, 07 May 2023 14:57:17 -0400</pubDate>
+      
+      <guid>/post/myfirstpost/</guid>
+      <description>hello</description>
+    </item>
+    
+  </channel>
+</rss>

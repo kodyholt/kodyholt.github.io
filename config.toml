@@ -1,0 +1,79 @@
+baseURL = '/'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+title = 'greensborosoccerdotnet'
+theme = "hero"
+
+[languages]
+    [languages.en]
+        title = 'GreensboroSoccer.net'
+        description = 'a simple directory'
+        
+[params]
+    iconfont = '//at.alicdn.com/t/font_2881911_o39brzj1llb.css'
+     title ='GreensboroSoccer.net'
+
+       
+        
+[params.widgets]
+    home = [
+        "section",
+         
+      
+        
+        
+        
+    ]
+    section = [
+        "section"
+        
+    ]
+    single = [
+        "section"
+    ]
+    term = [ "section"]
+    terms = [
+        "section"
+    ]
+
+[params.blocks]
+    home = ["profile", "markdown" ]
+    section = [
+    	"markdown","folder"
+    	]
+    single = [
+        "markdown", "folder"
+    ]
+    term = [ 
+    "folder"
+   ]
+    terms = [ "terms"
+    ]
+
+[params.welcome]
+    head = 'welcome'
+    body = 'hugo hero '
+    
+[params.single]
+   body = "Posts"
+    
+
+[params.profile]
+    avatar = '/img/logo.png'
+    head = 'A Soccer Directory'
+    body = 'test'
+    
+    [[params.profile.links]]
+        url = 'tags'
+        text = 'tags'
+    [[params.profile.links]]
+        url = 'categories'
+        text = 'categories'
+    
+    
+
+
+
+
+        
+

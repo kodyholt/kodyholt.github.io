@@ -1,0 +1,17 @@
+
+ <div class="terms">
+    <h1>{{ .Title }}</h1>
+    
+      {{ $type := .Type }}
+      {{ range $key, $value := .Data.Terms.Alphabetical }}
+      {{ $name := .Name }}
+      {{ $count := .Count }}
+      {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+        <li>
+          <a class="button-link" href="{{ .Permalink }}">{{ .Name }} ({{ $count }}) </a>
+        </li>
+      {{ end }}
+      {{ end }}
+    
+  </div>
+

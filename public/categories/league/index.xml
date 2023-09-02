@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>league on GreensboroSoccer.net</title>
+    <link>/categories/league/</link>
+    <description>Recent content in league on GreensboroSoccer.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 May 2023 23:44:44 -0400</lastBuildDate><atom:link href="/categories/league/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greensboro Leagues</title>
+      <link>/adult-leagues/greensboro/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/adult-leagues/greensboro/</guid>
+      <description> hello Greensboro Leagues Hey High Point Leagues hey Winston-Salem Leagues hey Kernersville Leagues hey </description>
+    </item>
+    
+    <item>
+      <title>Winston-Salem</title>
+      <link>/adult-leagues/winston-salem/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/adult-leagues/winston-salem/</guid>
+      <description>hey</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/post/</link>
+      <pubDate>Sun, 07 May 2023 14:57:17 -0400</pubDate>
+      
+      <guid>/post/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/post/myfirstpost/</link>
+      <pubDate>Sun, 07 May 2023 14:57:17 -0400</pubDate>
+      
+      <guid>/post/myfirstpost/</guid>
+      <description>hello</description>
+    </item>
+    
+  </channel>
+</rss>

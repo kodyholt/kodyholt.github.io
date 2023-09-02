@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adult-leagues on GreensboroSoccer.net</title>
+    <link>/adult-leagues/</link>
+    <description>Recent content in Adult-leagues on GreensboroSoccer.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 May 2023 08:33:52 -0400</lastBuildDate><atom:link href="/adult-leagues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>High Point</title>
+      <link>/adult-leagues/high-point/</link>
+      <pubDate>Sun, 14 May 2023 08:33:52 -0400</pubDate>
+      
+      <guid>/adult-leagues/high-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernersville</title>
+      <link>/adult-leagues/kernersville/</link>
+      <pubDate>Sun, 14 May 2023 08:27:31 -0400</pubDate>
+      
+      <guid>/adult-leagues/kernersville/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>Greensboro Leagues</title>
+      <link>/adult-leagues/greensboro/</link>
+      <pubDate>Sun, 07 May 2023 23:44:44 -0400</pubDate>
+      
+      <guid>/adult-leagues/greensboro/</guid>
+      <description> hello Greensboro Leagues Hey High Point Leagues hey Winston-Salem Leagues hey Kernersville Leagues hey </description>
+    </item>
+    
+  </channel>
+</rss>

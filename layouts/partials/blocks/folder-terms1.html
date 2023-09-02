@@ -1,0 +1,135 @@
+<div id="folder-block" class="block">
+    <style>
+      @media only screen and (min-width: 721px) {
+        .folderview-name,
+        .folderview-date,
+        .folderview-size,
+        .folderview-type {
+            min-width: 10em;
+            text-decoration: none;
+            
+            padding: 0px;
+        }
+        
+        .button-link { 
+        display: none;
+         }}
+         
+        
+        
+          
+      @media only screen and (max-width: 720px) { 
+       
+          
+           .folderview-name
+        { 
+          width: 80%;           
+          display: none;  
+          font-size: 30px;
+          border: 3px solid var(--shadow-bg-color);
+          align-items: center;
+          padding: 20px;
+          margin: 10px 10px;
+          text-align: center;
+          display: none;
+          }
+          
+        .folderview-date,
+        .folderview-size,
+        .folderview-type { display: none }
+         
+          
+          .folderview-name:hover {
+    background-color: var(--shadow-bg-color);
+    box-shadow: 0em 0em 0.5em var(--shadow-color); }
+     
+            .item:hover {
+    background-color: var(--shadow-bg-color);
+    box-shadow: 0em 0em 0.5em var(--shadow-color); }
+     
+         .button-link{
+          width: 85%;           
+          display: inline-block;
+          font-size: 24px;
+          border: 1px solid var(--shadow-bg-color);
+          
+          padding: 20px;
+          margin: 2px 3%;
+          margin-top: 2px;
+          text-align: center;
+          }
+  
+          
+          #folder-block {          width: 95%;
+            
+            
+           
+            
+            background:var(--bg-color);
+    
+           text-align: center;
+           align-items: center;
+          margin: 10px 10px;
+          margin-top: 2%;
+          
+       
+         border: 1px solid var(--border-color);
+
+}
+           }
+          }
+  
+    </style>
+    <section id="folderview-header" class="flex-single-row">
+        <span class="flex-row-item flex-rest-item folderview-name">Name</span>
+        <span class="flex-row-item folderview-date">Date Modified</span>
+        <span class="flex-row-item folderview-type">Type</span>
+        <span class="flex-row-item folderview-size">Size</span>
+    </section>
+    <section id="folderview-body" class="flex-single-col">
+           <ul>
+      {{ $type := .Type }}
+      {{ range $key, $value := .Data.Terms.ByCount}}
+      {{ $name := .Name }}
+      {{ $count := .Count }}
+      {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+        <li>
+          <a class="terms-title" href="{{ .Permalink }}">{{ .Name }} ({{ $count }})</a>
+        </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+        <div class="flex-single-row">
+            <span class="flex-row-item flex-rest-item folderview-name">
+                <a class="folderview-body" href="{{.Permalink}}">{{.Title}}</a>
+            </span>
+            <span class="flex-row-item folderview-date"></span>
+            <span class="flex-row-item folderview-type">{{ i18n "section"}}</span>
+            <span class="flex-row-item folderview-size">{{ i18n "page" (dict "Count" (len .Pages))}}</span>
+        </div>
+      
+        {{ range .RegularPages }}
+        <div class="flex-single-row">
+            <span class="flex-row-item flex-rest-item folderview-name">
+                <a href="{{.Permalink}}"><i class="flex-row-item"></i>{{ .Title }}</a>
+            </span>
+            <span class="flex-row-item folderview-date">{{.Date.Format "2006/01/02 15:04"}}</span>
+            <span class="flex-row-item folderview-type">{{if .Draft}}{{i18n "draft"}}{{else}}{{i18n "post"}}{{end}}</span>
+            <span class="flex-row-item folderview-size">{{ i18n "word" (dict "Count" .WordCount) }}</span>
+        </div>
+        {{ end }}
+        {{ if (and (eq (len .Sections) 0) (eq (len .RegularPages) 0))}}
+        {{ i18n "folder_empty" }}
+        {{ end }}
+  
+       <div>
+                    {{ range .Sections }}
+                    <a class="button-link profile-link" href="{{.Permalink}}">{{.Title}}</a>
+                    {{ end }}      
+        
+                </div>
+                <div>
+                    {{ range .RegularPages }}
+                    <a class="button-link profile-link" href="{{.Permalink}}">{{.Title}}</a>
+                    {{ end }}
+                </div>
