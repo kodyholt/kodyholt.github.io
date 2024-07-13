@@ -29,7 +29,7 @@
 {{/* Javascript */}}
 
 {{/* fuse.js for search */}}
-{{ $fusejs := resources.Get "js/fuse.js" | minify }}
+{{ $fusejs := resources.Get "js/fuse.js" |}}
 <script defer crossorigin="anonymous" src="{{ $fusejs.RelPermalink}}"></script>
 {{ $script := resources.Get "js/main.js" | minify }}
 <script defer crossorigin="anonymous" src="{{ $script.RelPermalink}}"></script>

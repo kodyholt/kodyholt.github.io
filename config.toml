@@ -13,7 +13,8 @@ theme = "hero"
     iconfont = '//at.alicdn.com/t/font_2881911_o39brzj1llb.css'
      title ='GreensboroSoccer.net'
 
-       
+ [outputs]
+    home = ['HTML', 'JSON'] # index.json is used for search      
         
 [params.widgets]
     home = [

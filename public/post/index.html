@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -33,7 +33,7 @@
 
 
 
-<script defer crossorigin="anonymous" src="/js/fuse.min.js"></script>
+<script defer crossorigin="anonymous" src="/js/fuse.js"></script>
 
 <script defer crossorigin="anonymous" src="/js/main.min.js"></script></head>
 
@@ -52,7 +52,7 @@
                     
                     
                     <div class="flex-row-item divider-vertical"></div>
-                    <div class="flex-row-item">© 2023 </div>
+                    <div class="flex-row-item">© 2024 </div>
                     
                     <div class="flex-row-item divider-vertical"></div>
                     <div class="flex-row-item">Powered by <a class="link" rel="noopener noreferrer" href="https://gohugo.io/" target="_blank">Hugo</a> & theme <a class="link" rel="noopener noreferrer" href="https://themes.gohugo.io/themes/hero/" target="_blank">hero</a></div>
@@ -81,7 +81,7 @@
     
     
         <div class="flex-row-item"><i class="iconfont icon-jiantouyou"></i></div>
-        <a class="flex-row-item link" href="/post/">My First Post</a>
+        <a class="flex-row-item link" href="//localhost:1313/post/">My First Post</a>
     
 
 
@@ -114,23 +114,27 @@
     <div class="widget-body" style="user-select: none;">
         <div class="flex-single-col">
             
-            <a class="link" href="/adult-leagues/">
-                <i class='iconfont icon-circle'></i>Adult-leagues
+            <a class="link" href="//localhost:1313/adult-leagues/">
+                <i class='iconfont icon-circle'></i>Adult-Leagues
             </a>
             
-            <a class="link" href="/events/">
+            <a class="link" href="//localhost:1313/events/">
                 <i class='iconfont icon-circle'></i>Events
             </a>
             
-            <a class="link" href="/youth-soccer/">
+            <a class="link" href="//localhost:1313/tv/">
+                <i class='iconfont icon-circle'></i>TV
+            </a>
+            
+            <a class="link" href="//localhost:1313/youth-soccer/">
                 <i class='iconfont icon-circle'></i>Youth Soccer
             </a>
             
-            <a class="link" href="/singles/">
+            <a class="link" href="//localhost:1313/singles/">
                 <i class='iconfont icon-circle'></i>Singles
             </a>
             
-            <a class="link" href="/post/">
+            <a class="link" href="//localhost:1313/post/">
                 <i class='iconfont icon-circle'></i>My First Post
             </a>
             
@@ -153,9 +157,9 @@
             width: 95%; 
                        
            background:var(--bg-color);    
-           text-align: center;
-           align-items: center;
-           margin: 0 auto;
+           text-align: left;
+          
+            margin: 0 auto;
          
         
         
@@ -262,7 +266,16 @@
         
         <div class="flex-single-row">
             <span class="flex-row-item flex-rest-item folderview-name">
-                <a href="/post/myfirstpost/"><i class="flex-row-item"></i>My First Post</a>
+                <a href="//localhost:1313/post/new/"><i class="flex-row-item"></i>New</a>
+            </span>
+            <span class="flex-row-item folderview-date">2023/05/07 16:46</span>
+            <span class="flex-row-item folderview-type">Draft</span>
+            <span class="flex-row-item folderview-size">0 words</span>
+        </div>
+        
+        <div class="flex-single-row">
+            <span class="flex-row-item flex-rest-item folderview-name">
+                <a href="//localhost:1313/post/myfirstpost/"><i class="flex-row-item"></i>My First Post</a>
             </span>
             <span class="flex-row-item folderview-date">2023/05/07 14:57</span>
             <span class="flex-row-item folderview-type">Post</span>
@@ -277,7 +290,9 @@
                 </div>
                 <div>
                     
-                    <a class="button-link profile-link" href="/post/myfirstpost/">My First Post</a>
+                    <a class="button-link profile-link" href="//localhost:1313/post/new/">New</a>
+                    
+                    <a class="button-link profile-link" href="//localhost:1313/post/myfirstpost/">My First Post</a>
                     
                 </div>
 
@@ -291,7 +306,7 @@
                     <div id="search-result-mask" class="flex-row-item flex-rest-item"></div>
                     <div id="result-mask-divider" class="flex-row-item divider-vertical" style="height: auto;"></div>
                     <div id="search-result-content" class="flex-row-item">
-                        输入回车键，查看搜索结果。
+                       Press Enter to View Search Results
                     </div>
                 </div>
             </section>
@@ -299,10 +314,10 @@
     </main>
     <script>
         document.getElementById("nav-parent").onclick = function(e) {
-                window.location.href = "/";
+                window.location.href = "//localhost:1313/";
         }
         document.getElementById("nav-home").onclick = function(e) {
-                window.location.href = "/";
+                window.location.href = "//localhost:1313/";
         }
     </script>
     

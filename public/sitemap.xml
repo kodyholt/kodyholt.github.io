@@ -2,67 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/_hello/</loc>
+    <loc>//localhost:1313/adult-leagues/</loc>
+    <lastmod>2024-07-13T12:03:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/adult-leagues/2024-07-13-spears-ymca-adult-league/</loc>
+    <lastmod>2024-07-13T12:03:37+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/_hello/</loc>
     <lastmod>2023-05-14T22:10:03-04:00</lastmod>
   </url><url>
-    <loc>/adult-leagues/</loc>
+    <loc>//localhost:1313/adult-leagues/high-point/</loc>
     <lastmod>2023-05-14T08:33:52-04:00</lastmod>
   </url><url>
-    <loc>/adult-leagues/high-point/</loc>
-    <lastmod>2023-05-14T08:33:52-04:00</lastmod>
-  </url><url>
-    <loc>/adult-leagues/kernersville/</loc>
+    <loc>//localhost:1313/adult-leagues/kernersville/</loc>
     <lastmod>2023-05-14T08:27:31-04:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/events/</loc>
+    <loc>//localhost:1313/events/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/events/</loc>
+    <loc>//localhost:1313/categories/greensboro/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/categories/greensboro/</loc>
+    <loc>//localhost:1313/adult-leagues/greensboro/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/adult-leagues/greensboro/</loc>
+    <loc>//localhost:1313/categories/league/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/categories/league/</loc>
+    <loc>//localhost:1313/categories/post/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/categories/post/</loc>
+    <loc>//localhost:1313/tags/soccer/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/tags/soccer/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/adult-leagues/winston-salem/</loc>
     <lastmod>2023-05-07T23:44:44-04:00</lastmod>
   </url><url>
-    <loc>/adult-leagues/winston-salem/</loc>
-    <lastmod>2023-05-07T23:44:44-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2023-05-07T16:58:12-04:00</lastmod>
   </url><url>
-    <loc>/youth-soccer/</loc>
+    <loc>//localhost:1313/tv/</loc>
+    <lastmod>2023-05-07T16:58:12-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/youth-soccer/</loc>
     <lastmod>2023-05-07T16:52:27-04:00</lastmod>
   </url><url>
-    <loc>/singles/hello/</loc>
+    <loc>//localhost:1313/post/new/</loc>
+    <lastmod>2023-05-07T16:46:24-04:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/singles/hello/</loc>
     <lastmod>2023-05-07T16:16:02-04:00</lastmod>
   </url><url>
-    <loc>/singles/</loc>
+    <loc>//localhost:1313/singles/</loc>
     <lastmod>2023-05-07T16:16:02-04:00</lastmod>
   </url><url>
-    <loc>/myfirstpost/</loc>
+    <loc>//localhost:1313/myfirstpost/</loc>
     <lastmod>2023-05-07T14:57:17-04:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2023-05-07T14:57:17-04:00</lastmod>
   </url><url>
-    <loc>/post/myfirstpost/</loc>
+    <loc>//localhost:1313/post/myfirstpost/</loc>
     <lastmod>2023-05-07T14:57:17-04:00</lastmod>
   </url>
 </urlset>
